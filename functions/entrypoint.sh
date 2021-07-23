@@ -1,7 +1,7 @@
 #!/bin/bash
 
-source CheckHostname.sh
+source check_hostname.sh
 
-CheckHostname; echo $?
-CheckHostname google.com; echo $?
-CheckHostname wrong; echo $?
+check_hostname; echo $?
+check_hostname google.com; echo $?
+check_hostname wrong; echo $?

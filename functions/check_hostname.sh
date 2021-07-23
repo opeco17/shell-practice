@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 
-CheckHostname()
+check_hostname()
 {
     _PING=
     _PING_RESULT=
